@@ -13,8 +13,8 @@
     "deploy": "git push heroku master"
   },
   "keywords": [],
-  "author": "JDB",
-  "license": "ISC",
+  "author": "Chase Miller",
+  "license": "MINE",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
