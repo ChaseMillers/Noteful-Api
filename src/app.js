@@ -1,4 +1,3 @@
-require('dotenv').config()
 const express = require('express')
 const morgan = require('morgan')
 const cors = require('cors')
@@ -8,7 +7,9 @@ const notesRouter = require('./notes/notes-router')
 const foldersRouter = require('./folders/folders-router')
 
 const app = express()
-
+if (app.get("env")=="development"){
+  require('dotenv').config()
+}
 
 const morganOption = (NODE_ENV === 'production')
   ? 'tiny'
