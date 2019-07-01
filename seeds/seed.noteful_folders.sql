@@ -4,4 +4,3 @@ VALUES
   ('Super'),
   ('Spangley'); 
 
-  ALTER SEQUENCE folders RESTART WITH 4; 
