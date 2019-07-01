@@ -10,7 +10,7 @@ const serializeNote = note => ({
   id: note.id,
   modified: note.modified,
   name: xss(note.name),
-  folderId: note.folderId,
+  folderid: note.folderid,
   content: xss(note.content),
 })
 
