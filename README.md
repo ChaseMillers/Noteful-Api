@@ -1,7 +1,7 @@
-# Noteful-Api Thinkful Assignment
+# Noteful React App for Thinkful
+Live Site: https://noteful.jgd625.now.sh/
 
-Databases with Express 
-
+API server: https://boiling-spire-95159.herokuapp.com/
 
 # Express Boilerplate!
 
